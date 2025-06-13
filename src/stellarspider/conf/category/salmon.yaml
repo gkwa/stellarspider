@@ -1,0 +1,145 @@
+# @package _global_
+category_name: salmon
+filter_type: salmon
+
+# Keywords for salmon filtering
+keywords:
+  positive:
+    - salmon
+    - sockeye
+    - pacific
+    - alaska
+    - coho
+    - chinook
+    - keta
+
+  negative:
+    - anchovies
+    - atlantic
+    - battered
+    - biscuit
+    - blackened
+    - color added
+    - sesame
+    - bourbon
+    - broccoli
+    - burger
+    - caesar salad
+    - caviar
+    - cedar plank
+    - char
+    - chicken
+    - cod
+    - cottage cheese
+    - crusted
+    - cubes
+    - farm
+    - farmed
+    - garlic herb
+    - grilled
+    - guacamole
+    - halibut
+    - honey chipotle
+    - juice
+    - mahi mahi
+    - marinated
+    - mocktail
+    - onion rings
+    - peaches
+    - plant based
+    - pollock
+    - previously frozen
+    - rub
+    - raised
+    - sablefish
+    - salad
+    - sardines
+    - seasoned
+    - seasoning
+    - shrimp
+    - smoke
+    - pacific cod
+    - smoked
+    - steak
+    - stuffed
+    - breaded
+    - sweet potatoes
+    - tilapia
+    - tortillas
+    - trout
+    - tuna
+    - vegan
+
+  somewhat_negative:
+    - canned
+    - creations
+    - servings
+    - nuggets
+    - poke bowl
+    - pouch
+    - teriyaki
+
+  preferred:
+    - fillet
+    - fillets
+    - frozen
+    - fresh
+    - wild
+    - portion
+    - portions
+    - skinless
+    - boneless
+    - skin-on
+    - never frozen
+
+# Ocean origin classification
+ocean_origins:
+  atlantic:
+    - atlantic
+  pacific:
+    - pacific
+    - alaska
+    - alaskan
+  arctic:
+    - arctic
+  north_sea:
+    - north sea
+    - norwegian
+    - norway
+  other:
+    - canadian
+    - scottish
+    - faroese
+    - chilean
+    - tasmanian
+
+# Scoring multipliers
+scoring:
+  positive_multiplier: 3
+  negative_multiplier: -10
+  somewhat_negative_multiplier: -2
+  preferred_multiplier: 2
+  name_salmon_bonus: 4
+  name_fillet_bonus: 3
+
+# Consumption scenarios (product-specific)
+consumption:
+  # For long-term storage or travel
+  frozen_storage:
+    required_keywords:
+      - frozen
+    negative_keywords:
+      - fresh
+      - "never frozen"
+    scoring_adjustments:
+      frozen_bonus: 3
+      fresh_penalty: -5
+
+  # For immediate consumption
+  immediate_use:
+    preferred_keywords:
+      - fresh
+      - "never frozen"
+    scoring_adjustments:
+      fresh_bonus: 2
+      frozen_penalty: 0

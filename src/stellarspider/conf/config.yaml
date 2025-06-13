@@ -1,0 +1,21 @@
+defaults:
+  - category: salmon
+  - consumption: frozen
+  - _self_
+
+# Input/Output settings
+input: null # null means stdin, otherwise file path
+output:
+  format: json
+  indent: 2
+
+# Logging
+verbose: 0 # 0=WARNING, 1=INFO, 2=DEBUG
+
+# Version flag
+version: false
+
+# Scoring weights
+scoring:
+  rule_weight: 0.7
+  semantic_weight: 0.3

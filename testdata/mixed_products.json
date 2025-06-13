@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Wild Alaska Sockeye Salmon Fillet",
+    "Category": "seafood",
+    "URL": "https://example.com/salmon1",
+    "CleanedText": "Premium wild-caught Alaska sockeye salmon fillet, frozen, 1.5 lb package. Current price: $24.99 ($16.66/lb). No antibiotics, sustainably sourced."
+  },
+  {
+    "Name": "Organic Raw Spanish Peanuts",
+    "Category": "nuts",
+    "URL": "https://example.com/peanuts1",
+    "CleanedText": "Certified organic raw Spanish peanuts with red skin, 2 lb bag. Price: $12.99 ($6.50/lb). Perfect for roasting or eating raw."
+  },
+  {
+    "Name": "Farm-Raised Atlantic Salmon Burgers",
+    "Category": "seafood",
+    "URL": "https://example.com/salmon2",
+    "CleanedText": "Pre-seasoned Atlantic salmon burgers, farm-raised, frozen. 4 patties per package. Current price: $8.99 ($2.25 per patty)."
+  },
+  {
+    "Name": "Honey Roasted Peanuts Snack Mix",
+    "Category": "snacks",
+    "URL": "https://example.com/peanuts2",
+    "CleanedText": "Honey roasted peanuts with cashews and almonds. Sweet coating, 16 oz container. Price: $5.99 ($0.37/oz). Great for parties."
+  }
+]
