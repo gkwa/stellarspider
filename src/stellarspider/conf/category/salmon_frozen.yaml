@@ -1,0 +1,8 @@
+# @package _global_
+defaults:
+  - salmon
+  - _self_
+
+# Override consumption preference for frozen storage
+consumption:
+  default: frozen_storage

@@ -1,0 +1,51 @@
+# @package _global_
+category_name: peanuts
+filter_type: peanuts
+
+keywords:
+  positive:
+    - peanuts
+    - peanut
+    - groundnuts
+    - "spanish grade"
+    - valencia
+    - runner
+    - virginia
+
+  negative:
+    - "peanut butter"
+    - chocolate
+    - candy
+    - "bird feed"
+    - "bird food"
+    - "wildlife food"
+    - "pet food"
+    - roasted
+    - salted
+    - seasoned
+    - flavored
+    - honey
+    - caramel
+    - "cocktail mix"
+
+  somewhat_negative:
+    - blanched
+    - "skinless"
+    - shelled
+
+  preferred:
+    - raw
+    - "uncooked"
+    - "unsalted"
+    - organic
+    - "with skin"
+    - "in shell"
+    - natural
+
+scoring:
+  positive_multiplier: 3
+  negative_multiplier: -8
+  somewhat_negative_multiplier: -1
+  preferred_multiplier: 3
+  name_peanut_bonus: 4
+  raw_bonus: 5
